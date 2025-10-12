@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "WordCounter": {
+      "commandName": "Project",
+      "commandLineArgs": "--input \"C:\\User Manual\\test\\input\" --out \"C:\\User Manual\\test\\output\"  --exclude \"C:\\User Manual\\test\\exclude.txt\""
+    }
+  }
+}
