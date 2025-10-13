@@ -10,7 +10,7 @@ Note: The current implementation reads files as raw text. Supporting JSON/CSV pa
 
 Prerequisites
 
-.NET SDK 9 (or whatever your project targets)
+.NET SDK 9
 
 Quick Start
 
