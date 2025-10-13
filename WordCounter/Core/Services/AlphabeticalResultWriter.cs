@@ -16,6 +16,8 @@ public sealed class AlphabeticalResultWriter(IFileSystem fs) : IResultWriter
         {
             var word = kv.Key;
             var first = word[0];
+            if (first < 'A' || first > 'Z')
+                continue;
 
             buckets[first].Add((word, kv.Value));
         }

@@ -32,7 +32,8 @@ public sealed class WordCounterService(INormalizer norm, IWordExtractor tok) : I
 
             Interlocked.Add(ref excludedTotal, localExcluded);
         });
-        
+
+        // ارجاع Dictionary عادي زي التوقيع الأصلي
         return (new Dictionary<string, int>(total, total.Comparer), excludedTotal);
     }
 }
