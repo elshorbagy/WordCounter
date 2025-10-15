@@ -3,7 +3,6 @@ using WordCounter;
 using WordCounter.Core.Interfaces;
 using WordCounter.Enums;
 using WordCounter.Extensions;
-using WordCounter.IO.FileWriting;
 
 IFileSystem fs;
 

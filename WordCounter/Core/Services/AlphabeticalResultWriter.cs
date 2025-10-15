@@ -1,5 +1,4 @@
 ﻿using WordCounter.Core.Interfaces;
-using WordCounter.IO.FileWriting;
 
 namespace WordCounter.Core.Services;
 

@@ -1,6 +1,6 @@
 ﻿using NSubstitute;
+using WordCounter.Core.Interfaces;
 using WordCounter.Core.Services;
-using WordCounter.IO.FileWriting;
 
 namespace WordCounter_Test.UnitTest.Services;
 

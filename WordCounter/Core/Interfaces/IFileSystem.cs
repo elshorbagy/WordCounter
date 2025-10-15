@@ -1,4 +1,4 @@
-﻿namespace WordCounter.IO.FileWriting;
+﻿namespace WordCounter.Core.Interfaces;
 
 public interface IFileSystem
 {
